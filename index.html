@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body>
+
+<form id="register">
+	<h2>Registration</h2>
+	<fieldset class="row1">
+		<legend>Account Details</legend>
+		<p>
+			<label for="email">Email <span>*</span></label>
+			<input type="email" name="email" id="email" required>
+			<label for="re-email">Repeat Email <span>*</span></label>
+			<input type="email" name="re-email" id="re-email">
+		</p>
+		<p>
+			<label for="password">Password <span>*</span></label>
+			<input type="password" name="password" id="password" required>
+			<label for="re-password">Repeat Password <span>*</span></label>
+			<input type="password" name="re-password" id="password">
+		</p>
+	</fieldset>
+
+	<fieldset class="row2">
+		<legend>Personal Details</legend>
+		<p>
+			<label for="name">Name <span>*</label>
+			<input type="text" name="name" id="name" size="35" required>
+		</p>
+		<p>
+			<label for="name">Phone <span>*</label>
+			<input type="text" name="phone" id="phone" required>
+		</p>
+		<p>
+			<label for="street" style="color:gray">Street</label>
+			<input type="text" name="street" id="street" size="35" required>
+		</p>
+		<p>
+			<label for="city">City</label>
+			<input type="text" name="city" id="city" size="35" required>
+		</p>
+		<p>
+			<label for="country">Country</label>
+			<select id="country">
+				<option>Select a Country</option>
+				<option>America</option>
+				<option>India</option>
+				<option>Pakistan</option>
+				<option>Mexico</option>
+			</select>
+		</p>
+		<p>
+			<label for="website" style="color:gray; clear:both">Website</label>
+			<input type="text" value="http://" name="website" id="website" size="35">	
+		</p>
+	</fieldset>
+
+	<fieldset class="row3">
+		<legend>Further Information</legend>
+		<p>
+			<label>Gender <span>*</span></label>
+			<input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female
+		</p>
+		<p>
+			<label for="date" style="clear: both">Birthdate <span>*</span></label>
+			<select>
+				<option>01</option>
+			</select>
+			<select>
+				<option>January</option>
+			</select>
+			<input type="text" size="3">
+		</p>
+		<p>
+			<label for="nationality">Nationality <span>*</span></label>
+			<select>
+				<option>Black</option>
+				<option>White</option>
+				<option>Yellow</option>
+			</select>
+		</p>
+		<p>
+			<label>Children <span>*</span></label><input type="checkbox" name="children">
+		</p>
+		<div>
+			<h5>HELPFUL INFORMATION</h5>
+			<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</h6>
+		</div>
+	</fieldset>
+
+	<fieldset class="row4">
+		<legend>Terms and Mailing</legend>
+		<input type="checkbox">* I accept the <a href="#">The terms and conditions</a><br/>
+		<input type="checkbox">I want to receive personalized offers by your site
+		<br/>
+		<input type="checkbox">Allow partners to send me personalize offers and related services
+	</fieldset>
+	<button>Register &raquo;</button>
+	<div class="clear"></div>
+</form>
+
+</body>
+</html>

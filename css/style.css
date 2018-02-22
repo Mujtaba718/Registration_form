@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+#register {
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    padding: 10px 10px 40px 10px;
+}
+
+#register fieldset {
+    font-size: 14px;
+    border: 0px;
+}
+
+#register h2 {
+    background: url(../img/checked-checkbox-512.jpg) no-repeat center left;
+    background-size: 30px 30px;
+    padding-left: 35px;
+    color: #83899F;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    line-height: 32px;
+}
+
+#register span {
+    color: red;
+}
+
+#register .row1 {
+    border: 0px;
+    border-top: 1px solid #e8e8e8;
+    padding: 10px 0px;
+}
+
+#register .row2 {
+    float: left;
+    border-top: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    padding: 5px 10px 30px 0px;
+}
+
+label,
+select,
+input {
+    margin-top: 5px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.row1 label,
+.row2 label {
+    float: left;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.row1 label {
+    width: 200px;
+}
+
+.row2 label {
+    width: 150px;
+}
+
+.row1 input,
+.row2 input {
+    float: left;
+    padding: 2px;
+}
+
+.row2 select {
+    float: left;
+}
+
+#register .row3 {
+    padding: 10px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.row3 label {
+    float: left;
+    width: 150px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.row3 input {
+    margin-right: 5px;
+}
+
+.row3 div {
+    clear: both;
+    background: linear-gradient(#F3FADA, #FFFFFF);
+    color: gray;
+    padding: 10px;
+    width: 95%;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid #e8e8e8;
+}
+
+.row3 div h6 {
+    padding: 4px;
+}
+
+.row4 {
+    clear: both;
+    float: left;
+    border: 0px;
+    border-top: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    width: 600px;
+}
+
+.row4 input {
+    margin-right: 5px;
+}
+
+button {
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-image: linear-gradient(#99BD22, #B4D83D);
+    border-radius: 5px;
+    border-width: 0px;
+    box-shadow: 2px 2px 5px #888888;
+    margin: 5px 0px 0px 20px;
+    cursor: pointer;
+}
+
+legend {
+    font-size: 16px;
+    margin-left: 20px;
+    color: #ABDA0F;
+}
+
+.clear {
+    clear: both;
+}
+
